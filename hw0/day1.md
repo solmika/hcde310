@@ -32,7 +32,7 @@ We expected the app would  look like a sketch, with the art pictures, the timeli
 
 Put the screenshot in this `hw0` folder, then change the filename below to match:
 
-![screenshot](screenshot.png)
+![screenshot](screenshot.png) 
 
 ### 5. Sketch vs. app
 
@@ -44,7 +44,7 @@ Claude made the search bar too long and used a grid background. It also didn't i
 
 
 ### 6. What did I keep, change, or reject, and why?
-I kept the title and the caption under the artwork because they fit my app. Also, I added the artwork space, changed the size of the search bar, and used different colors, such as nude with brown and dark red. I moved everything toward the center of the app page and rejected the grid background. I think that all these changes made the app look closer to the main idea and a sketch.
+I kept the title and the caption under the artwork because they fit my app. Also, I added the artwork space, changed the size of the search bar, and used different colors, such as nude with brown, and dark red. I moved everything toward the center of the app page, moved the timeline and the artwork space more down, and rejected the grid background. I think that all these changes made the app look closer to the main idea and a sketch.
 
 
 ### 7. Explain back
@@ -59,7 +59,7 @@ I think that this part allows the user to click the previous and next buttons ne
 ## Looking ahead
 
 ### 8. What does it do? Does it work? What broke?
-The app helps students to fine a specific animal artwork by a year of creation, so it is easier to find art and make a history research. However, the app doesn't show the artwork after typing an nimal, but only a text "Could not reach the museum API (Failed to fetch). Open this file in your browser with internet on and try again." The only thing that works ib the year and a timeline. AFter typing a year the coursor on it will move to the right year. I think that Au couldn't connect the API correctly, so it doesnt work as intended. 
+The app helps students to fine a specific animal artwork by year of creation, so it is easier to find art and make a history research. However, the app doesn't show the artwork after typing an animal, but only the text "Could not reach the museum API (Failed to fetch). Open this file in your browser with internet on and try again." The only thing that works is the year and a timeline. After typing a year, the cursor on it will move to the right year. I think that Au couldn't connect the API correctly, so it doesn't work as intended. 
 
 
 ### 9. How much do I understand about how it works? (0–100%)
