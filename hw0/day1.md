@@ -59,7 +59,7 @@ I think that this part allows the user to click the previous and next buttons ne
 ## Looking ahead
 
 ### 8. What does it do? Does it work? What broke?
-The app helps students to find a specific animal artwork by year of creation, so it is easier to do a historical research. But the app doesn't show the artwork after typing an animal, but only the text "Could not reach the museum API (Failed to fetch). Open this file in your browser with internet on and try again." The only thing that works is the year and a timeline. After typing a year, the cursor moves to the right year. I think that AI couldn't connect to the API correctly, so it doesn't work as intended. 
+The app helps students find a specific animal artwork by year of creation, so it is easier to do historical research. But the app doesn't show the artwork after typing an animal, but it only shows the text "Could not reach the museum API (Failed to fetch). Open this file in your browser with internet on and try again." Looks like the app couldn't connect to the API, but I'm not really sure if it's because of the code or another reason, because my internet worked when I tested this. The only thing that works is the year and a timeline. After typing a year in a search bar, the slider handle moves to the right year.  
 
 
 ### 9. How much do I understand about how it works? (0–100%)
@@ -68,7 +68,7 @@ The app helps students to find a specific animal artwork by year of creation, so
 70%
 
 **Why that number:**
-I understand how the app suppose to work but I still need to understnad more about the code behind it. This would make me feel more confident about correcting what AI made or making better predictions about my future apps. 
+I understand how the app supposed to work but I still need to understand more about the code behind it. This would make me feel more confident about correcting what AI made or making better predictions about my future apps. 
 
 
 ### 10. What would I need to know to tell whether it's *well designed or well built*?
