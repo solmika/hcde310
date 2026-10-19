@@ -16,13 +16,13 @@ Traceback (most recent call last):
              ^^^^^^^^^^^^
 AttributeError: 'list' object has no attribute 'get
 ### 2. What I thought it meant
-My first thougth was that I can't write artowrks.get() because this is the list with the dictionaries in it and it doesn't work like that with lists probably. 
+My first thougth was that I can't write artworks.get() because this is the list with the dictionaries in it, and it doesn't work like that with lists probably.
 
 ### 3. What it actually meant
-It meant that I asked list to do something that only dictionary can do. 
+It meant that I asked the list to do something that only a dictionary can do. 
 
 ### 4. The fix
-I created a new dictionary count = {} and used .get() to add artist this this dictionary, so i.get("artist", "Unknown") will check every artist in the loop and when a dictionary does not have any, it will return Unknown instead and add it to the new dictionary count. Now, calling .get() only on one painting inside a loop fixes it. 
+I created a new dictionary count = {} and used .get() to add artists to this dictionary, so i.get("artist", "Unknown") checks every artist in the loop, and when a dictionary does not have any, it will return Unknown instead and add it to the new dictionary count. Now, calling .get() only on one painting inside a loop fixes it. 
 
 ## Entry 2
 
@@ -41,10 +41,10 @@ Traceback (most recent call last):
 KeyError: 'year'
 
 ### 2. What I thought it meant
-I thought that Python probably crusehd because one dictionary didn't have they key "year", so KeyError indicated that
+I thought that Python probably crashed because one dictionary didn't have the key "year", so KeyError indicated that.
 
 ### 3. What it actually meant
-This actually means that Python coulnd't run because one dictionary didn't have a key "year" 
+This actually means that Python coulnd't run because one dictionary didn't have a key "year".
 
 ### 4. The fix
-adding "year = i.get("year", "Unknown")", and instead of writing in print i["year"] at the end, write just {year}, so print(f"{title} - {artist} ({year})"). Now Python won't crush it because even if one dictionary doesn't have a key year, it will orint "Unknown" instead
+Add "year = i.get("year", "Unknown")", and instead of writing print i["year"] at the end, write just {year}, so print(f"{title} - {artist} ({year})"). Now Python won't crash because even if one dictionary doesn't have a key year, it will return "Unknown" instead.
