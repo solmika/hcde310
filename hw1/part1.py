@@ -7,4 +7,4 @@ artist = "Vincent van Gogh"
 year = 1889
 print(f"{name} ({year}) by {artist}")
 print(name.upper(), len(name))
-print("Bed" in name)
+print("Bed" in name)    # "in" returns a boolean value

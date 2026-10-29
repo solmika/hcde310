@@ -18,12 +18,13 @@ titles = [
 ]
 count = 0
 for i in titles:
-    count = count + 1
+    count += 1
     print(f"{count}.", i)
-
+    
+count = 0
 for i in titles:
     count += 1
-print("Titles:", len(titles))
+print("Titles:", count)
 
 count = 0
 for i in titles:

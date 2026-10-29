@@ -20,17 +20,19 @@ artworks = [
     {"title": "Untitled (vase)"},
 ]
 from artworks import artworks
-count = {}
+count = {}   # dict counting works per artist   
 for i in artworks:
     artist = i.get("artist", "Unknown")
     count[artist] = count.get(artist, 0) + 1 #right side -- count.get "is the first i is in the dictionary count? No? now it is 0 + 1, so 1. Left side, now python connects that 1 to the artist and saves it into the dictionary
 print(count)
+#{'Vincent van Gogh': 1, 'Edward Hopper': 1, 'Grant Wood': 1, 'Georges Seurat': 1, 'Pablo Picasso': 1, 'Claude Monet': 2, 'Mary Cassatt': 1, "Georgia O'Keeffe": 1, 'Unknown': 1}
 
-most_artist = ""
-most_count = 0
+
+most_artist = ""      # a placeholder for the artist's name #prints the artist with the most works
+most_count = 0      #a placeholder fro artist number of artworks. #def count_by_artist(artworks): -- this is for the function
 for i in count:
     if count[i] > most_count:
-        most_artist = i
+        most_artist = i 
         most_count = count[i]
 print(f"Most works: {most_artist} ({most_count})")
 
