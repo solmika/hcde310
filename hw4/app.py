@@ -37,7 +37,7 @@ def results():
     #if API is not responding or answers with an error, so search_art returns None; an error message is handled by the home.html 
     if artwork is None:
         return render_template("home.html", message="Error. Please try again in a moment")
-    #API answered, but it didn't find matching artist
+    #API answered, but it didn't find matching artist.
     if not artwork:
         return render_template("home.html", message="No artworks were found")
     return render_template("results.html", artwork=artwork, artist=artist)
