@@ -41,8 +41,8 @@ What I changed: I asked AI to help me fix this. It recommended fixing the api.py
 How I checked it works: I run the app.py and pasted the link into my browser and typed a nonsense word and instead of list of random artworks it showed me "No results found."
 Also, I checked it with pytest, and it didn't work again. I asked Claude what a possible bug was, and I found out that my text in assert b"" was wrong and it had to match the one in results.html. Now it all works!
 
-Commit before: c67c50a
-Commit after: a30dbc7
+Commit before: a30dbc7 
+Commit after: c67c50a
 
 ## 6. Can we ship it? (100–150 words)
 Yes or no, and why: 
