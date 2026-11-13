@@ -1,7 +1,7 @@
 # HW5 findings
 
 ## 1. Drawing: one search for "Monet"
-![drawing](drawing.png)
+![drawing](drawing.jpg)
 
 ## 2. Two questions about the code
 1. What does "except Exception as e:" do?
