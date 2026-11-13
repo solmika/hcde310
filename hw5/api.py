@@ -14,7 +14,7 @@ def get_artworks(artist):
     results = response.json().get("data", [])
     search_term = artist.lower()
     
-    # Keep only artworks where the searched name matches artist_title
+    #Keep only artworks where the searched name matches artist_title
     filtered = [
         art for art in results
         if search_term in (art.get("artist_title") or "").lower()
